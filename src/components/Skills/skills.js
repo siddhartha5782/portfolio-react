@@ -11,10 +11,24 @@ const Skills = () => {
             <span className='skillDesc'>Im a skilled dev</span>
             <div className='skillBars'>
                 <div className='skillBar'>
-                    <img src='' alt='' className='skillBarImg'/>
+                    <img src={UIDesign} alt='' className='skillBarImg'/>
                     <div className='skillBarText'>
-                        <h2></h2>
-                        <p></p>
+                        <h2>UI/UX Design</h2>
+                        <p>some content</p>
+                    </div>
+                </div>
+                <div className='skillBar'>
+                    <img src={WebDesign} alt='' className='skillBarImg'/>
+                    <div className='skillBarText'>
+                        <h2>WebDesign</h2>
+                        <p>some content</p>
+                    </div>
+                </div>
+                <div className='skillBar'>
+                    <img src={AppDesign} alt='' className='skillBarImg'/>
+                    <div className='skillBarText'>
+                        <h2>AppDesign</h2>
+                        <p>some content</p>
                     </div>
                 </div>
             </div>
